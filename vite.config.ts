@@ -17,8 +17,6 @@ export default defineConfig(({ mode }) => {
           main: 'index.html',
         },
       },
-    },
-    // If files are in root, simple static handling
-    publicDir: 'public' 
+    }
   };
 });
